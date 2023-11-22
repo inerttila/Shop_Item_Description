@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      href="https://skaitech.al/wp-content/uploads/2020/10/cropped-logo-black-copy.png"
+      type="image/png"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Long Description</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desc_container">
+      <div class="desc_section">
+        <h2 class="include_package">Description</h2>
+
+        <textarea name="" id="description" cols="120" rows="30"></textarea>
+      </div>
+      <div class="specs_section">
+        <h2 class="include_package">In The Box</h2>
+        <ul>
+          <textarea name="" id="specs" cols="30" rows="20"></textarea>
+        </ul>
+      </div>
+    </div>
+    <button style="position: relative; left: 10%" onclick="myFunction()">
+      <span class="tooltiptext" id="myTooltip">Copy</span>
+    </button>
+    <div id="answer"></div>
+    <button
+      style="position: relative; left: 5%; margin-top: 30px; font-size: 2em"
+      onclick="generate()"
+    >
+      Generate
+    </button>
+  </body>
+  <script src="script.js"></script>
+</html>

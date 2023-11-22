@@ -1,0 +1,115 @@
+.products ul li.product .btWooShopLoopItemInner,
+ul.products li.product .btWooShopLoopItemInner {
+  height: 21em !important;
+  min-height: 220px !important;
+}
+.products ul li.product .btWooShopLoopItemInner .bt_bb_image > a > img,
+ul.products li.product .btWooShopLoopItemInner .bt_bb_image > a > img {
+  height: 150px !important;
+  object-fit: cover;
+}
+h2 {
+  font-size: 2em !important;
+}
+bdi {
+  font-size: 0.7em !important;
+}
+.bt_bb_size_extrasmall.bt_bb_headline h1,
+.bt_bb_size_extrasmall.bt_bb_headline h2,
+.bt_bb_size_extrasmall.bt_bb_headline h3,
+.bt_bb_size_extrasmall.bt_bb_headline h4,
+.bt_bb_size_extrasmall.bt_bb_headline h5,
+.bt_bb_size_extrasmall.bt_bb_headline h6 {
+  font-size: 1em !important;
+}
+.mainHeaderInner {
+  background: black !important;
+  padding-bottom: 10px !important;
+}
+body.btNoSidebar .btPostSingleItemStandard {
+  margin-top: 8em;
+}
+div.product div.summary form.cart .single_add_to_cart_button {
+  border-radius: 0;
+  box-shadow: none;
+  background: #2d2b33;
+  color: whitesmoke;
+}
+div.product div.summary form.cart .single_add_to_cart_button:hover {
+  border-radius: 0 !important;
+}
+div.product div.summary form.cart .quantity input {
+  border-radius: 0 !important;
+}
+.short_desc {
+  text-align: justify;
+  font-size: 0.9em;
+}
+.short_specs {
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 0.9em;
+  text-align: left;
+}
+.specs_title {
+  margin-bottom: 0em;
+  font-size: 1em;
+}
+
+.container {
+  position: absolute;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  display: grid;
+  column-gap: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5%;
+}
+.input {
+  grid-area: 1/1;
+  padding: 10px 6em;
+  background-color: #f6f6f6;
+  width: 600px;
+}
+.output {
+  grid-area: 1/2;
+  padding: 10px 6em;
+  background-color: #f6f6f6;
+  width: 25vw;
+}
+
+textarea {
+  resize: vertical;
+  background-color: #fafafa;
+  border: 1px solid #e9e9e9;
+  padding: 10px;
+}
+#generatebtn {
+  position: relative;
+  top: 50%;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  cursor: pointer;
+}
+#copybtn {
+  position: relative;
+  left: -8em;
+  top: -20px;
+  border: none;
+  background-color: #ffffff73;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid #f4f4f4;
+}
+
+#copyCode {
+  resize: vertical;
+}
+
+textarea::selection {
+  background-color: #212121;
+  color: rgb(174, 185, 255);
+}

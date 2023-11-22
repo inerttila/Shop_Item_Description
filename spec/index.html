@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      href="https://skaitech.al/wp-content/uploads/2020/10/cropped-logo-black-copy.png"
+      type="image/png"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Short Description</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <textarea name="" id="desc_s" cols="80" rows="10"></textarea>
+        <h6 class="specs_title">Key Specs</h6>
+        <div class="short_specs">
+          <ul id="left_s">
+            <textarea name="" id="left_area" cols="30" rows="10"></textarea>
+          </ul>
+          <ul id="right_s">
+            <textarea name="" id="right_area" cols="30" rows="10"></textarea>
+          </ul>
+        </div>
+      </div>
+      <button id="generatebtn" onclick="generate()">Generate</button>
+      <div class="output">
+        <button id="copybtn" onclick="copyText()">
+          <span id="myTooltip">Copy</span>
+        </button>
+        <textarea name="" id="copyCode" cols="60" rows="25"></textarea>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
